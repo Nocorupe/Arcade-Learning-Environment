@@ -39,6 +39,7 @@
 #include "supported/ElevatorAction.hpp"
 #include "supported/Enduro.hpp"
 #include "supported/FishingDerby.hpp"
+#include "supported/Fixit.hpp"
 #include "supported/Freeway.hpp"
 #include "supported/Frogger.hpp"
 #include "supported/Frostbite.hpp"
@@ -117,6 +118,7 @@ static const RomSettings *roms[]  = {
     new ElevatorActionSettings(),
     new EnduroSettings(),
     new FishingDerbySettings(),
+    new FixitSettings(),
     new FreewaySettings(),
     new FroggerSettings(),
     new FrostbiteSettings(),
